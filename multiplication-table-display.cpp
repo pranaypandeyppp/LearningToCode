@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    #ifndef ONLINE_JUDGE
+        freopen("input.txt", "r", stdin);
+        freopen("output.txt", "w", stdout);
+    #endif
+
+int n;
+cin>>n;
+for(int num = 1;num<=10;num = num + 1){
+    cout<<n<<" * "<<num<<" = "<<n*num<<endl;
+}
+
+return 0;
+}
+
